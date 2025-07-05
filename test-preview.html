@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BizForm Guide 미리보기</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9fafb;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #111827;
+            margin-bottom: 16px;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #6b7280;
+            margin-bottom: 32px;
+        }
+        .button {
+            background-color: #3b82f6;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 16px;
+            border-radius: 50%;
+        }
+        .icon-blue {
+            background-color: #dbeafe;
+        }
+        .icon-green {
+            background-color: #d1fae5;
+        }
+        .icon-purple {
+            background-color: #e9d5ff;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #111827;
+        }
+        p {
+            color: #6b7280;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BizForm Guide</h1>
+            <p class="subtitle">법인 설립 시점을 고민하는 스타트업·소상공인을 위한 맞춤형 의사결정 지원 서비스</p>
+            <button class="button">Google로 시작하기</button>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="icon icon-blue"></div>
+                <h3>맞춤형 추천</h3>
+                <p>간단한 질문으로 최적의 사업 형태를 추천받으세요</p>
+            </div>
+            <div class="card">
+                <div class="icon icon-green"></div>
+                <h3>체크리스트</h3>
+                <p>단계별 필수 절차를 체크하며 진행하세요</p>
+            </div>
+            <div class="card">
+                <div class="icon icon-purple"></div>
+                <h3>서류 자동화</h3>
+                <p>필요한 서류를 자동으로 생성하고 관리하세요</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.button').addEventListener('click', function() {
+            alert('Google 로그인 기능이 구현될 예정입니다!');
+        });
+    </script>
+</body>
+</html>

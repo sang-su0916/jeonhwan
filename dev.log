@@ -1,0 +1,18 @@
+
+> bizform-guide@0.0.0 dev
+> vite
+
+
+  VITE v7.0.0  ready in 3472 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://10.255.255.254:3000/
+  ➜  Network: http://172.22.11.5:3000/
+6:27:41 PM [vite] vite.config.ts changed, restarting server...
+6:27:42 PM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.255.255.254:5173/
+  ➜  Network: http://172.22.11.5:5173/
+6:52:35 PM [vite] (client) page reload debug-test.html
+7:06:45 PM [vite] (client) page reload open-local.html

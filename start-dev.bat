@@ -1,0 +1,3 @@
+@echo off
+echo Starting development server...
+wsl -e bash -c "cd '/mnt/c/Users/LG/Desktop/법인관련 웹앱/bizform-guide' && npm run dev"
